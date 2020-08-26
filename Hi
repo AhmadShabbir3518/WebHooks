@@ -1,0 +1,23 @@
+username : [string] - if used, it overrides the default username of the webhook
+avatar_url : [url of image] - if used, it overrides the default avatar of the webhook
+content : [string] - simple message, the message contains (up to 2000 characters)
+embeds : [array] - array of embed objects. That means, you can use more than one in the same body
+author : [object] - embed author object
+name : [string] - name of author
+url : [url of website] - url of author. If name was used, it becomes a hyperlink
+icon_url : [url of image] - url of author icon
+title : [string] - title of embed
+url : [url of website] - url of embed. If title was used, it becomes hyperlink
+description : [string] - description text
+color : [number] - color code of the embed. You have to use Decimal numeral system, not Hexadecimal. Use color picker and converter
+fields : [array] - array of embed field objects
+name : [string] - name of the field
+value : [string] - value of the field
+inline : [bool] - if true, fields will be displayed in same line, but there can only be 3 max in same line or 2 max if you used thumbnail
+thumbnail : [object] - embed thumbnail object
+url : [url of image] - url of thumbnail
+image : [object] - embed image object
+url : [url of image] - url of image
+footer : [object] - embed footer object
+text : [string] - footer text, doesn't support Markdown
+icon_url : [url of image] - url of footer icon
